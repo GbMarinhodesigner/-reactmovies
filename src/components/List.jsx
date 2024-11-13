@@ -3,7 +3,7 @@ import { getData } from "../api/tmdb"
 import { useState } from "react";
 
 import { BarLoader } from "react-spinners";
-import { Card } from "./card";
+import { Card } from "./Card";
 import { Pagination } from "./Pagination";
 
 export function List({ categoria }) {
